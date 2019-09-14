@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
         final Executor executor = Executors.newSingleThreadExecutor();
 
         final BiometricPrompt biometricPrompt = new BiometricPrompt.Builder(this)
-                .setTitle("Fingerprint Testing")
+                .setTitle("Fingerprint Testing 2")
                 .setSubtitle("Subtitle")
                 .setDescription("Description")
                 .setNegativeButton("Cancel", executor, new DialogInterface.OnClickListener() {
